@@ -17,7 +17,13 @@ app.use(cors());
 app.use(express.json());
 
 app.use(express.static(path.join(__dirname, 'dist')));
+app.use(express.static(staticPath));
 
+app.get('/', (req, res) => {
+    res.sendFile(path.resolve(staticPath, 'index.html'));
+  });
+
+  
 app.post("/chatbot", async (req, res) => {
   const { question } = req.body;
 
