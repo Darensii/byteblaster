@@ -8,7 +8,7 @@ const App = () => {
   const onChange = (e) => setValue(e.target.value);
 
   const handleSubmit = async () => {
-    const response = await axios.post("https://byteblaster.onrender.com/chatbox", {
+    const response = await axios.post("https://byteblaster.onrender.com/", {
       question: value,
     });
     setResponse(response.data);
