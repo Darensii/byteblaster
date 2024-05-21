@@ -62,7 +62,6 @@ app.post("/chatbot", async (req, res) => {
               max_tokens: 300,
           });
       }
-
       res.send(response.choices[0].message.content);
 
   } catch (error) {
