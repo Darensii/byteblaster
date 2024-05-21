@@ -1,6 +1,8 @@
 import express from "express";
 import cors from "cors";
 import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 import { OpenAI } from "openai";
 
 const app = express();
@@ -8,8 +10,13 @@ const port = process.env.PORT || 3005;
 const apiKey = process.env.OPEN_AI_KEY;
 const openai = new OpenAI({ apiKey: apiKey });
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 app.use(cors());
 app.use(express.json());
+
+app.use(express.static(path.join(__dirname, 'dist')));
 
 app.post("/chatbot", async (req, res) => {
   const { question } = req.body;
@@ -17,17 +24,17 @@ app.post("/chatbot", async (req, res) => {
   try {
       let response;
 
-      // Check if combined question is available
-      const fileContent = await fs.readFileSync('UTS_Information.txt', 'utf8');
+    
+      const fileContent = fs.readFileSync(path.join(__dirname, 'UTS_Information.txt'), 'utf8');
       const combinedQuestion = `${question}\n${fileContent}`;
 
       if (fileContent.trim() !== '') {
-          // Use combined question if available
+          // 使用组合后的问题
           response = await openai.chat.completions.create({
               messages: [
                   {
                       role: "system",
-                      content: "You are an AI Assistant which develop by the student from University of Technology Sarawak based on the OpenAI. Your main role is to help find any relevant information and the Timetable on the website of the school.",
+                      content: "You are an AI Assistant developed by the students from University of Technology Sarawak based on the OpenAI. Your main role is to help find any relevant information and the Timetable on the website of the school.",
                   },
                   {
                       role: "user",
@@ -38,7 +45,7 @@ app.post("/chatbot", async (req, res) => {
               max_tokens: 300,
           });
       } else {
-          // No combined question available, use only user question
+          // 仅使用用户的问题
           response = await openai.chat.completions.create({
               messages: [
                   {
@@ -59,8 +66,13 @@ app.post("/chatbot", async (req, res) => {
 
   } catch (error) {
       console.error("Error:", error);
-      res.status(500).send("Internal Server Error"); // Handle error gracefully
+      res.status(500).send("Internal Server Error"); // 处理错误
   }
+});
+
+// 所有路由请求重定向到 index.html
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
