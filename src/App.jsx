@@ -4,25 +4,14 @@ import axios from "axios";
 const App = () => {
   const [response, setResponse] = useState("Hi, welcome to UTS-calendar Website. How can I help you?");
   const [value, setValue] = useState("");
-
+  
   const onChange = (e) => setValue(e.target.value);
 
   const handleSubmit = async () => {
-    try {
-      const response = await axios.post("/", {
-        question: value,
-      });
-      setResponse(response.data);
-    } catch (error) {
-      console.error("Error:", error);
-      setResponse(response.data);
-    }
-  };
-
-  const handleKeyPress = (e) => {
-    if (e.key === "Enter") {
-      handleSubmit();
-    }
+    const response = await axios.post("/", {
+      question: value,
+    });
+    setResponse(response.data);
   };
 
   return (
@@ -42,7 +31,6 @@ const App = () => {
           type="text"
           value={value}
           onChange={onChange}
-          onKeyPress={handleKeyPress}
         />
         <div id="submit" onClick={handleSubmit}>
           ➢
@@ -51,5 +39,4 @@ const App = () => {
     </>
   );
 };
-
 export default App;
