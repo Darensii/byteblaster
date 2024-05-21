@@ -9,7 +9,7 @@ const App = () => {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post("/chatbot", {
+      const response = await axios.post("/", {
         question: value,
       });
       setResponse(response.data);
