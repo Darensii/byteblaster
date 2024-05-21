@@ -19,10 +19,16 @@ const App = () => {
     }
   };
 
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      handleSubmit();
+    }
+  };
+
   return (
     <>
       <div className="top">
-        <img src="./src/UTS_Logo.png" width="100" />
+      <img src={UTSLogo} width="100" alt="UTS_Logo.png" />
       </div>
 
       {/* Background with styled div */}
@@ -36,6 +42,7 @@ const App = () => {
           type="text"
           value={value}
           onChange={onChange}
+          onKeyPress={handleKeyPress}
         />
         <div id="submit" onClick={handleSubmit}>
           ➢
