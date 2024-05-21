@@ -8,7 +8,7 @@ const App = () => {
   const onChange = (e) => setValue(e.target.value);
 
   const handleSubmit = async () => {
-    const response = await axios.post("/chatbot", {
+    const response = await axios.post("/", {
       question: value,
     });
     setResponse(response.data);
