@@ -4,14 +4,19 @@ import axios from "axios";
 const App = () => {
   const [response, setResponse] = useState("Hi, welcome to UTS-calendar Website. How can I help you?");
   const [value, setValue] = useState("");
-  
+
   const onChange = (e) => setValue(e.target.value);
 
   const handleSubmit = async () => {
-    const response = await axios.post("/", {
-      question: value,
-    });
-    setResponse(response.data);
+    try {
+      const response = await axios.post("http://localhost:5173/", {
+        question: value,
+      });
+      setResponse(response.data);
+    } catch (error) {
+      console.error("Error:", error);
+      setResponse("An error occurred while processing your request.");
+    }
   };
 
   return (
@@ -39,4 +44,5 @@ const App = () => {
     </>
   );
 };
+
 export default App;
