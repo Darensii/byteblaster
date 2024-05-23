@@ -92,6 +92,7 @@ input:focus {
   box-sizing: border-box; /* Include padding and border in the element's total width */
   background-color: rgb(100, 100, 200);
 }
+
 .user_question
 {
   padding: 30px; /* Adjust this value to match the desired padding */
