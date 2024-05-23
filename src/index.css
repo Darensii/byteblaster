@@ -84,14 +84,6 @@ input:focus {
   background-color: #3e8e41; /* Darker green on hover */
 }
 
-.respond
-{
-  padding: 30px; /* Adjust this value to match the desired padding */
-  margin: 20px auto; /* Center the elements horizontally */
-  max-width: 100%; /* Set a maximum width */
-  box-sizing: border-box; /* Include padding and border in the element's total width */
-  background-color: rgb(100, 100, 200);
-}
 
 .user_question
 {
@@ -99,5 +91,14 @@ input:focus {
   margin: 20px auto; /* Center the elements horizontally */
   max-width: 100%; /* Set a maximum width */
   box-sizing: border-box; /* Include padding and border in the element's total width */
-  background-color: rgb(100, 100, 200);
+  background-color: rgb(149, 149, 199);
+}
+
+.respond
+{
+  padding: 30px; /* Adjust this value to match the desired padding */
+  margin: 20px auto; /* Center the elements horizontally */
+  max-width: 100%; /* Set a maximum width */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+  background-color: rgb(127, 127, 165);
 }

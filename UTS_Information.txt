@@ -1,3 +1,228 @@
+Below this is under Bachelor of Computer Science (Hons)
+Ts. Dr. Chew Kim Mey
+Position: Head of Programme, Bachelor of Computer Science (Hons.)
+Phone: 084-367427
+Email: chew.kim.mey
+s. Gary Loh Chee Wyai
+Position:  Senior Lecturer / Director, CIR
+Phone: 084-367523
+Email: gary
+Eileen Ong Sing Ling
+Position: Senior Lecturer
+Phone: 084-367560
+Email: eileenong
+Ts. Daniel Tan Yong Wen
+Position: Senior Lecturer/Director of DRAC
+Phone: 084-367432
+Email: danieltan
+Chang Wui Lee
+Position: Lecturer
+Phone: 084-367437
+Email: wui.lee
+Marcella Peter
+Position: Lecturer
+Phone: 084-367556
+Email: marcella
+Khairunnisa Binti Ibrahim
+Position: Lecturer
+Phone: 084-367518
+Email: khairunnisa.ibrahim
+Dr. Tariq Zaman
+Position: Head of ASSET/Programme Coordinator, Master in Computing and PhD in Computing/Associate Professor
+Phone: 084-367520
+Email: tariqzaman
+Nur Hidayatullah Binti Rashidi
+Position: Lecturer
+Phone: 084-367588
+Email: nurhidayatullah
+Dr. Michael Tang Chi Seng
+Position: Lecturer
+Phone: 084-367474
+Email: michaeltang
+
+Below information are form Bachelor of Arts In Industrial Design (Honours)
+Bachelor of Arts in Industrial Design (Honours)
+Ts. Ahmad Lutfee Bin Mohd Lasa, CIDe
+Position: Head of Programme, Bachelor of Arts in Industrial Design (Honours)
+Phone: 084-367417
+Email: lutfee
+Barbara Anak Dieo
+Position: Lecturer
+Phone: 084-367513
+Email: barbara
+Khatijah Binti Hanapi
+Position: Lecturer
+Phone: 084-367521
+Email:  khatijah
+Cherry Ling Yieng Siang
+Position: Lecturer
+Phone: 084-367433
+Email:  cherryling
+Dr. Muhammad Firdaus Abong Abdullah
+Position: Director, UTS Publication Unit/Associate Professor
+Phone: 084-367529
+Email: muhammad.firdaus
+Ts. Muhammad Huzail bin Hasbullah
+Position: Lecturer
+Phone: -
+Email: huzail
+
+Below Information are for Bachelor of Arts (Hons.) in Creative Digital Media
+Mohamad Suffian Bin Abdul Kadir
+Position: Head of Programme, Bachelor of Arts(Hons.) in Creative Digital Media
+Phone: 084-367435
+Email: mohd.suffian
+Ts. Vanden Michael
+Position: Lecturer
+Phone: 084-367517
+Email: vanden
+Nur Atiqah Binti Zaini
+Position: Lecturer
+Phone: 084-367428
+Email: nuratiqah
+Jaibi Bin Sabian
+Position: Lecturer
+Phone: 084-367477
+Email: jaibi
+Hasrunnaim Bin Hasan
+Position: Lecturer
+Phone: 084-367423
+Email: hasrunnaim
+Nurnazifah Binti Manshor
+Position: Lecturer
+Phone: -
+Email: nurnazifah
+
+Bachelor of Mobile Game Development (Honours)
+Ts. Jackie Ting Tiew Wei
+Position: Head of Programme, Bachelor of Mobile Game Development(Honours)
+Phone: 084-367515
+Email: jackie
+
+Administrative Staff & Lab Technician
+Khairunnisa Binti Ramli
+Position: Executive
+Phone: 084-367547
+Email: khairunnisaramli
+Salmia Binti Anuar
+Position: Clerk
+Phone: 084-367548
+Email: salmia
+Muhammad Asraf Bin Zulkarnain
+Position: Senior Laboratory Technician
+Phone: -
+Email: muhd.asraf
+
+Below are the Class Detail For the Bachelor Computer Science
+Day	Monday
+Time	08:00 AM - 10:00 AM
+Venue	COMPUTER LABORATORY 4
+Course	CSS 3323 - DATABASE DEVELOPMENT AND APPLICATIONS
+Section Code	BCSY1S2 G04 TUTORIAL/PRACTICAL 03 L 01
+Class Duration	02 H 00 M
+Lecturer	GARY LOH CHEE WYAI
+Day	Monday
+Time	11:00 AM - 01:00 PM
+Venue	R923
+Course	CSS 3223 - CALCULUS
+Section Code	BCSY3S2 G02 LECTURE 02 L 01
+Class Duration	02 H 00 M
+Lecturer	MICHAEL TANG CHI SENG
+
+Day	Tuesday
+Time	08:00 AM - 10:00 AM
+Venue	LTA
+Course	CSS 3123 - DATA STRUCTURE AND ALGORITHMS
+Section Code	BMDY1S2 G01 LECTURE 01 L 01
+Class Duration	02 H 00 M
+Lecturer	KHAIRUNNISA BINTI IBRAHIM
+Day	Tuesday
+Time	12:00 PM - 02:00 PM
+Venue	LTB
+Course	CSS 3133 - OBJECT ORIENTED PROGRAMMING (OOP)
+Section Code	BMDY1S2 G01 LECTURE 01 L 01
+Class Duration	02 H 00 M
+Lecturer	ALAN TING HUONG YONG
+Day	Tuesday
+Time	02:00 PM - 04:00 PM
+Venue	COMPUTER LABORATORY 4
+Course	CSS 3123 - DATA STRUCTURE AND ALGORITHMS
+Section Code	BCSY1S2 G04 TUTORIAL/PRACTICAL 03 L 01
+Class Duration	02 H 00 M
+Lecturer	KHAIRUNNISA BINTI IBRAHIM
+
+DAY WEDNESDAY
+Day	Wednesday
+Time	08:00 AM - 10:00 AM
+Venue	COMPUTER LABORATORY 3
+Course	CSS 3133 - OBJECT ORIENTED PROGRAMMING
+Section Code	BMDY1S2 G04 TUTORIAL/PRACTICAL 02 L 01
+Class Duration	02 H 00 M
+Lecturer	ALAN TING HUONG YONG
+
+DAY WEDNESDAY
+Day	Wednesday
+Time	11:00 AM - 01:00 PM
+Venue	R804-R806
+Course	CSS 3533 - OPERATING SYSTEMS
+Section Code	BCSY2S2 G01 LECTURE 01 L 01
+Class Duration	02 H 00 M
+Lecturer	MARCELLA PETER
+
+DAY WEDNESDAY
+Day	Wednesday
+Time	01:00 PM - 03:00 PM
+Venue	R712
+Course	CSS 3313 - MULTIMEDIA TECHNOLOGY
+Section Code	BCSY2S2 G02 LECTURE 02 L 01
+Class Duration	02 H 00 M
+Lecturer	TARIQ ZAMAN
+
+DAY THURSDAY
+Day	Thursday
+Time	12:00 PM - 02:00 PM
+Venue	LTB
+Course	CSS 3323 - DATABASE DEVELOPMENT AND APPLICATIONS
+Section Code	BCSY1S2 G01 LECTURE 01 L 01
+Class Duration	02 H 00 M
+Lecturer	GARY LOH CHEE WYAI
+
+DAY THURSDAY
+Day	Thursday
+Time	02:00 PM - 04:00 PM
+Venue	COMPUTER LABORATORY 4
+Course	CSS 3313 - MULTIMEDIA TECHNOLOGY
+Section Code	BCSY2S2 G02 TUTORIAL/PRACTICAL 02 L 01
+Class Duration	02 H 00 M
+Lecturer	TARIQ ZAMAN
+
+DAY THURSDAY
+Day	Thursday
+Time	07:00 PM - 09:00 PM
+Venue	ONLINE VENUE 2
+Course	UCS 3152 - BUSINESS ENGLISH
+Section Code	G01 LECTURE/TUTORIAL (ONLINE) 01 L 01
+Class Duration	02 H 00 M
+Lecturer	NADIRA BINTI ABDUL RAHMAN
+
+DAY FRIDAY
+Day	Friday
+Time	08:00 AM - 10:00 AM
+Venue	R511
+Course	CSS 3533 - OPERATING SYSTEMS
+Section Code	BCSY2S2 G05 TUTORIAL/PRACTICAL 03 L 01
+Class Duration	02 H 00 M
+Lecturer	KHAIRUNNISA BINTI IBRAHIM
+
+DAY FRIDAY
+Day	Friday
+Time	11:00 AM - 01:00 PM
+Venue	R702
+Course	CSS 3223 - CALCULUS
+Section Code	BCSY3S2 G04 TUTORIAL 02 L 02
+Class Duration	02 H 00 M
+Lecturer	MICHAEL TANG CHI SENG
+
 About University
 University of Technology Sarawak (UTS) is the culmination of the State of Sarawak’s vision and commitment in establishing a world-class institution of higher learning to spearhead the development and production of technical human resource for the Sarawak Corridor of Renewable Energy (SCORE).UTS is committed to facilitating students’ access to an affordable world-class university education that nurtures creative and entrepreneurial leaders through a broad education in science and technology while combining the career benefits of an applied approach for SCORE-related research and career opportunities.Situated in Sibu, one of the main gateways into SCORE, UTS campus is equipped with the latest state-of-the-art facilities to facilitate teaching, learning and research activities necessary in the production of graduates required by the industries within SCORE.In addition, UTS will be complemented by its own Science & Technology Park, which will bring about vast research and entrepreneurial opportunities through local and international industrial and educational collaborations.
 Through its close collaboration with Universiti Kuala Lumpur, one of Malaysia’s leading technical universities with over 20,000 students across the country, UTS aims to complement the growth and fulfil the human resource and industrial needs of SCORE.
@@ -512,228 +737,3 @@ Mdm Nurfaezah binti Sharif
 Position: Deputy Dean
 Phone: 084-367561
 Email: siew.ping
-
-Below this is under Bachelor of Computer Science (Hons)
-Ts. Dr. Chew Kim Mey
-Position: Head of Programme, Bachelor of Computer Science (Hons.)
-Phone: 084-367427
-Email: chew.kim.mey
-s. Gary Loh Chee Wyai
-Position:  Senior Lecturer / Director, CIR
-Phone: 084-367523
-Email: gary
-Eileen Ong Sing Ling
-Position: Senior Lecturer
-Phone: 084-367560
-Email: eileenong
-Ts. Daniel Tan Yong Wen
-Position: Senior Lecturer/Director of DRAC
-Phone: 084-367432
-Email: danieltan
-Chang Wui Lee
-Position: Lecturer
-Phone: 084-367437
-Email: wui.lee
-Marcella Peter
-Position: Lecturer
-Phone: 084-367556
-Email: marcella
-Khairunnisa Binti Ibrahim
-Position: Lecturer
-Phone: 084-367518
-Email: khairunnisa.ibrahim
-Dr. Tariq Zaman
-Position: Head of ASSET/Programme Coordinator, Master in Computing and PhD in Computing/Associate Professor
-Phone: 084-367520
-Email: tariqzaman
-Nur Hidayatullah Binti Rashidi
-Position: Lecturer
-Phone: 084-367588
-Email: nurhidayatullah
-Dr. Michael Tang Chi Seng
-Position: Lecturer
-Phone: 084-367474
-Email: michaeltang
-
-Below information are form Bachelor of Arts In Industrial Design (Honours)
-Bachelor of Arts in Industrial Design (Honours)
-Ts. Ahmad Lutfee Bin Mohd Lasa, CIDe
-Position: Head of Programme, Bachelor of Arts in Industrial Design (Honours)
-Phone: 084-367417
-Email: lutfee
-Barbara Anak Dieo
-Position: Lecturer
-Phone: 084-367513
-Email: barbara
-Khatijah Binti Hanapi
-Position: Lecturer
-Phone: 084-367521
-Email:  khatijah
-Cherry Ling Yieng Siang
-Position: Lecturer
-Phone: 084-367433
-Email:  cherryling
-Dr. Muhammad Firdaus Abong Abdullah
-Position: Director, UTS Publication Unit/Associate Professor
-Phone: 084-367529
-Email: muhammad.firdaus
-Ts. Muhammad Huzail bin Hasbullah
-Position: Lecturer
-Phone: -
-Email: huzail
-
-Below Information are for Bachelor of Arts (Hons.) in Creative Digital Media
-Mohamad Suffian Bin Abdul Kadir
-Position: Head of Programme, Bachelor of Arts(Hons.) in Creative Digital Media
-Phone: 084-367435
-Email: mohd.suffian
-Ts. Vanden Michael
-Position: Lecturer
-Phone: 084-367517
-Email: vanden
-Nur Atiqah Binti Zaini
-Position: Lecturer
-Phone: 084-367428
-Email: nuratiqah
-Jaibi Bin Sabian
-Position: Lecturer
-Phone: 084-367477
-Email: jaibi
-Hasrunnaim Bin Hasan
-Position: Lecturer
-Phone: 084-367423
-Email: hasrunnaim
-Nurnazifah Binti Manshor
-Position: Lecturer
-Phone: -
-Email: nurnazifah
-
-Bachelor of Mobile Game Development (Honours)
-Ts. Jackie Ting Tiew Wei
-Position: Head of Programme, Bachelor of Mobile Game Development(Honours)
-Phone: 084-367515
-Email: jackie
-
-Administrative Staff & Lab Technician
-Khairunnisa Binti Ramli
-Position: Executive
-Phone: 084-367547
-Email: khairunnisaramli
-Salmia Binti Anuar
-Position: Clerk
-Phone: 084-367548
-Email: salmia
-Muhammad Asraf Bin Zulkarnain
-Position: Senior Laboratory Technician
-Phone: -
-Email: muhd.asraf
-
-Below are the Class Detail For the Bachelor Computer Science
-Day	Monday
-Time	08:00 AM - 10:00 AM
-Venue	COMPUTER LABORATORY 4
-Course	CSS 3323 - DATABASE DEVELOPMENT AND APPLICATIONS
-Section Code	BCSY1S2 G04 TUTORIAL/PRACTICAL 03 L 01
-Class Duration	02 H 00 M
-Lecturer	GARY LOH CHEE WYAI
-Day	Monday
-Time	11:00 AM - 01:00 PM
-Venue	R923
-Course	CSS 3223 - CALCULUS
-Section Code	BCSY3S2 G02 LECTURE 02 L 01
-Class Duration	02 H 00 M
-Lecturer	MICHAEL TANG CHI SENG
-
-Day	Tuesday
-Time	08:00 AM - 10:00 AM
-Venue	LTA
-Course	CSS 3123 - DATA STRUCTURE AND ALGORITHMS
-Section Code	BMDY1S2 G01 LECTURE 01 L 01
-Class Duration	02 H 00 M
-Lecturer	KHAIRUNNISA BINTI IBRAHIM
-Day	Tuesday
-Time	12:00 PM - 02:00 PM
-Venue	LTB
-Course	CSS 3133 - OBJECT ORIENTED PROGRAMMING (OOP)
-Section Code	BMDY1S2 G01 LECTURE 01 L 01
-Class Duration	02 H 00 M
-Lecturer	ALAN TING HUONG YONG
-Day	Tuesday
-Time	02:00 PM - 04:00 PM
-Venue	COMPUTER LABORATORY 4
-Course	CSS 3123 - DATA STRUCTURE AND ALGORITHMS
-Section Code	BCSY1S2 G04 TUTORIAL/PRACTICAL 03 L 01
-Class Duration	02 H 00 M
-Lecturer	KHAIRUNNISA BINTI IBRAHIM
-
-DAY WEDNESDAY
-Day	Wednesday
-Time	08:00 AM - 10:00 AM
-Venue	COMPUTER LABORATORY 3
-Course	CSS 3133 - OBJECT ORIENTED PROGRAMMING
-Section Code	BMDY1S2 G04 TUTORIAL/PRACTICAL 02 L 01
-Class Duration	02 H 00 M
-Lecturer	ALAN TING HUONG YONG
-
-DAY WEDNESDAY
-Day	Wednesday
-Time	11:00 AM - 01:00 PM
-Venue	R804-R806
-Course	CSS 3533 - OPERATING SYSTEMS
-Section Code	BCSY2S2 G01 LECTURE 01 L 01
-Class Duration	02 H 00 M
-Lecturer	MARCELLA PETER
-
-DAY WEDNESDAY
-Day	Wednesday
-Time	01:00 PM - 03:00 PM
-Venue	R712
-Course	CSS 3313 - MULTIMEDIA TECHNOLOGY
-Section Code	BCSY2S2 G02 LECTURE 02 L 01
-Class Duration	02 H 00 M
-Lecturer	TARIQ ZAMAN
-
-DAY THURSDAY
-Day	Thursday
-Time	12:00 PM - 02:00 PM
-Venue	LTB
-Course	CSS 3323 - DATABASE DEVELOPMENT AND APPLICATIONS
-Section Code	BCSY1S2 G01 LECTURE 01 L 01
-Class Duration	02 H 00 M
-Lecturer	GARY LOH CHEE WYAI
-
-DAY THURSDAY
-Day	Thursday
-Time	02:00 PM - 04:00 PM
-Venue	COMPUTER LABORATORY 4
-Course	CSS 3313 - MULTIMEDIA TECHNOLOGY
-Section Code	BCSY2S2 G02 TUTORIAL/PRACTICAL 02 L 01
-Class Duration	02 H 00 M
-Lecturer	TARIQ ZAMAN
-
-DAY THURSDAY
-Day	Thursday
-Time	07:00 PM - 09:00 PM
-Venue	ONLINE VENUE 2
-Course	UCS 3152 - BUSINESS ENGLISH
-Section Code	G01 LECTURE/TUTORIAL (ONLINE) 01 L 01
-Class Duration	02 H 00 M
-Lecturer	NADIRA BINTI ABDUL RAHMAN
-
-DAY FRIDAY
-Day	Friday
-Time	08:00 AM - 10:00 AM
-Venue	R511
-Course	CSS 3533 - OPERATING SYSTEMS
-Section Code	BCSY2S2 G05 TUTORIAL/PRACTICAL 03 L 01
-Class Duration	02 H 00 M
-Lecturer	KHAIRUNNISA BINTI IBRAHIM
-
-DAY FRIDAY
-Day	Friday
-Time	11:00 AM - 01:00 PM
-Venue	R702
-Course	CSS 3223 - CALCULUS
-Section Code	BCSY3S2 G04 TUTORIAL 02 L 02
-Class Duration	02 H 00 M
-Lecturer	MICHAEL TANG CHI SENG
