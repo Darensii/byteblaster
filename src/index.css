@@ -35,12 +35,12 @@ color:rgb(0, 0, 0);
   left: 50%; 
   transform: translateX(-50%);
   background-color: #d1bbbb;
-  padding: 35.9px;
+  padding: 40px;
   width: 1000px;
   box-sizing: border-box;
   margin: 0 auto;
-  font-size: 20px;
-  border-radius: 5px;
+  font-size: 25px;
+  border-radius: 6px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,7 +83,6 @@ input:focus {
 .redirect-button:hover {
   background-color: #3e8e41; /* Darker green on hover */
 }
-
 
 .user_question
 {
