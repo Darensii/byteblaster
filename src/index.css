@@ -73,7 +73,7 @@ input:focus {
 }
 
 .user_question {
-  padding: 30px;
+  padding: 0px;
   margin: 20px auto;
   max-width: 100%;
   box-sizing: border-box;
