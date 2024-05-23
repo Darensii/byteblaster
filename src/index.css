@@ -1,61 +1,58 @@
-*{
-  font-family:Arial, sans-serif;
+* {
+  font-family: Arial, sans-serif;
 }
 
-body
-{
+body {
   background-image: url(https://github.com/Darensii/byteblasteruts.com/assets/162389957/32a08f60-4546-4b49-9c13-9f76561a90fa);
   margin: 0;
   padding: 0;
 }
-.top
-{
+
+.top {
   max-width: 100%;
   background-image: url(https://github.com/Darensii/byteblasteruts.com/assets/162389957/32a08f60-4546-4b49-9c13-9f76561a90fa);
   text-align: center;
 }
 
-.background
-{
-height: 500px;
-width:1000px; 
-background-color: rgba(183, 183, 199, 0.363);
-position: fixed;
-top: 10%; 
-left: 50%; 
-transform: translateX(-50%);
-color:rgb(0, 0, 0);
+.background {
+  height: 500px;
+  width: 1000px;
+  background-color: rgba(183, 183, 199, 0.363);
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(0, 0, 0);
 }
 
-
-.text_box { 
-
+.text_box {
   position: fixed;
-  top: 50%; 
-  left: 50%; 
-  transform: translateX(-50%);
+  top: 70%; /* Adjusted to better balance the position */
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: #d1bbbb;
-  padding: 45px;
-  width: 1150px;
-  height: 20px;
+  padding: 20px; /* Reduced padding for better layout */
+  width: 80%; /* Adjusted to be responsive */
+  max-width: 1100px; /* Maximum width for larger screens */
+  height: auto; /* Adjusted to fit content */
   box-sizing: border-box;
-  margin: 0 auto;
-  font-size: 25px;
+  font-size: 20px;
   border-radius: 5px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row; /* Changed to row for horizontal layout */
+  justify-content: space-between;
   align-items: center;
 }
 
 input {
-  width: 100%;
-  color:black;
+  flex: 1; /* Allow input to take up remaining space */
+  color: black;
   background-color: rgb(255, 251, 251);
   font-size: 20px;
   border: none;
   border-radius: 5px;
   padding: 12px 15px;
+  margin-right: 10px; /* Space between input and submit button */
 }
 
 input:focus {
@@ -63,42 +60,47 @@ input:focus {
 }
 
 #submit {
-  position: absolute;
-  top: 50px;
-  right: 30px; /* Adjust this value to control the distance from the right side */
+  padding: 12px 20px; /* Better padding for the button */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
+  font-size: 20px;
+}
+
+#submit:hover {
+  background-color: #45a049; /* Darker green on hover */
 }
 
 .redirect-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
   color: white;
   text-decoration: none;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s; /* Add a smooth transition on hover */
+  transition: background-color 0.3s;
 }
 
 .redirect-button:hover {
-  background-color: #3e8e41; /* Darker green on hover */
+  background-color: #3e8e41;
 }
 
-.user_question
-{
-  padding: 30px; /* Adjust this value to match the desired padding */
-  margin: 20px auto; /* Center the elements horizontally */
-  max-width: 100%; /* Set a maximum width */
-  box-sizing: border-box; /* Include padding and border in the element's total width */
+.user_question {
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 100%;
+  box-sizing: border-box;
   background-color: rgba(183, 183, 199, 0.363);
 }
 
-.respond
-{
-  padding: 30px; /* Adjust this value to match the desired padding */
-  margin: 20px auto; /* Center the elements horizontally */
-  max-width: 100%; /* Set a maximum width */
-  box-sizing: border-box; /* Include padding and border in the element's total width */
+.respond {
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 100%;
+  box-sizing: border-box;
   background-color: rgba(183, 183, 199, 0.363);
 }
