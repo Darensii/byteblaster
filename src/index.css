@@ -1,5 +1,6 @@
 * {
   font-family: Arial, sans-serif;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 body {
@@ -15,37 +16,28 @@ body {
 }
 
 .background {
-  height: 500px;
-  width: 1000px;
+  height: auto; /* Adjusted to fit content */
+  width: 100%; /* Adjusted to be full width */
+  max-width: 1000px; /* Maximum width for larger screens */
   background-color: rgba(183, 183, 199, 0.363);
-  position: fixed;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
+  margin: 10% auto; /* Center the background */
+  padding: 20px;
+  box-sizing: border-box;
   color: rgb(0, 0, 0);
 }
 
 .text_box {
-  position: fixed;
-  top: 70%; /* Adjusted to better balance the position */
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: #d1bbbb;
-  padding: 20px; /* Reduced padding for better layout */
+  padding: 20px; /* Adjusted padding for better layout */
   width: 80%; /* Adjusted to be responsive */
-  max-width: 1100px; /* Maximum width for larger screens */
-  height: auto; /* Adjusted to fit content */
-  box-sizing: border-box;
+  max-width: 600px; /* Maximum width for larger screens */
+  margin: 0 auto; /* Center the text box */
   font-size: 20px;
   border-radius: 5px;
-  display: flex;
-  flex-direction: row; /* Changed to row for horizontal layout */
-  justify-content: space-between;
-  align-items: center;
 }
 
 input {
-  flex: 1; /* Allow input to take up remaining space */
+  width: calc(100% - 100px); /* Adjusted width for better balance */
   color: black;
   background-color: rgb(255, 251, 251);
   font-size: 20px;
@@ -60,7 +52,8 @@ input:focus {
 }
 
 #submit {
-  padding: 12px 20px; /* Better padding for the button */
+  width: 100px; /* Adjusted width for better balance */
+  padding: 12px 0; /* Better padding for the button */
   background-color: #4CAF50;
   color: white;
   border: none;
@@ -73,33 +66,10 @@ input:focus {
   background-color: #45a049; /* Darker green on hover */
 }
 
-.redirect-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  text-decoration: none;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.redirect-button:hover {
-  background-color: #3e8e41;
-}
-
-.user_question {
-  padding: 30px;
-  margin: 20px auto;
-  max-width: 100%;
-  box-sizing: border-box;
-  background-color: rgba(183, 183, 199, 0.363);
-}
-
+.user_question,
 .respond {
-  padding: 30px;
-  margin: 20px auto;
+  padding: 20px; /* Adjusted padding for better layout */
+  margin: 20px auto; /* Center the elements */
   max-width: 100%;
   box-sizing: border-box;
   background-color: rgba(183, 183, 199, 0.363);
