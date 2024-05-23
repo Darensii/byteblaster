@@ -23,47 +23,72 @@ app.get('/', (req, res) => {
     res.sendFile(path.resolve(staticPath, 'index.html'));
 });
 
+// Base Chatbot class
+class Chatbot {
+    constructor(openai) {
+        this.openai = openai;
+    }
+
+    async getResponse(question, context) {
+        throw new Error("Method 'getResponse()' must be implemented.");
+    }
+}
+
+// Specialized class for handling UTS information
+class UTSChatbot extends Chatbot {
+    constructor(openai, infoFilePath) {
+        super(openai);
+        this.infoFilePath = infoFilePath;
+    }
+
+    async getResponse(question, context) {
+        let response;
+        const fileContent = fs.readFileSync(this.infoFilePath, 'utf8');
+        const combinedQuestion = `${question}\n${fileContent}`;
+
+        if (fileContent.trim() !== '') {
+            response = await this.openai.chat.completions.create({
+                messages: [
+                    {
+                        role: "system",
+                        content: "You are an AI Assistant developed by the students from University of Technology Sarawak based on the OpenAI. Your main role is to help find any relevant information and the Timetable on the website of the school.",
+                    },
+                    {
+                        role: "user",
+                        content: combinedQuestion,
+                    },
+                ],
+                model: "gpt-3.5-turbo",
+                max_tokens: 300,
+            });
+        } else {
+            response = await this.openai.chat.completions.create({
+                messages: [
+                    {
+                        role: "system",
+                        content: "I am an AI CHATBOT of UTSCalendar. Please search something related to UTS.",
+                    },
+                    {
+                        role: "user",
+                        content: question,
+                    },
+                ],
+                model: "gpt-3.5-turbo",
+                max_tokens: 300,
+            });
+        }
+        return response.choices[0].message.content;
+    }
+}
+
+const chatbot = new UTSChatbot(openai, path.join(__dirname, 'UTS_Information.txt'));
+
 app.post("/chatbot", async (req, res) => {
   const { question } = req.body;
 
   try {
-      let response;
-      const fileContent = fs.readFileSync(path.join(__dirname, 'UTS_Information.txt'), 'utf8');
-      const combinedQuestion = `${question}\n${fileContent}`;
-
-      if (fileContent.trim() !== '') {
-          response = await openai.chat.completions.create({
-              messages: [
-                  {
-                      role: "system",
-                      content: "You are an AI Assistant developed by the students from University of Technology Sarawak based on the OpenAI. Your main role is to help find any relevant information and the Timetable on the website of the school.",
-                  },
-                  {
-                      role: "user",
-                      content: combinedQuestion,
-                  },
-              ],
-              model: "gpt-3.5-turbo",
-              max_tokens: 300,
-          });
-      } else {
-          response = await openai.chat.completions.create({
-              messages: [
-                  {
-                      role: "system",
-                      content: "I am an AI CHATBOT of UTSCalendar. Please search something related to UTS.",
-                  },
-                  {
-                      role: "user",
-                      content: question,
-                  },
-              ],
-              model: "gpt-3.5-turbo",
-              max_tokens: 300,
-          });
-      }
-      res.send(response.choices[0].message.content);
-
+      const response = await chatbot.getResponse(question);
+      res.send(response);
   } catch (error) {
       console.error("Error:", error);
       res.status(500).send("Internal Server Error");
