@@ -22,7 +22,7 @@ const App = () => {
   return (
     <>
       <div className="top">
-        <img src="./src/UTS_Logo.png" width="100" />
+        <img src="./src/UTS_Logo" width="100" />
       </div>
       
       {/* Background with styled div */}
