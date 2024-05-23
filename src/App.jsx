@@ -58,4 +58,4 @@ const TextBox = ({ value, onChange, handleSubmit }) => {
   );
 };
 
-export default App;
+export default MessageDisplay;
