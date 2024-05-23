@@ -84,10 +84,6 @@ input:focus {
   transition: background-color 0.3s;
 }
 
-.redirect-button:hover {
-  background-color: #3e8e41;
-}
-
 .user_question {
   padding: 30px;
   margin: 20px auto;
