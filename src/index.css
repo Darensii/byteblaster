@@ -15,8 +15,8 @@ body {
 }
 
 .background {
-  height: 500px;
-  width: 1000px;
+  height: 620px;
+  width: 1200px;
   background-color: rgba(183, 183, 199, 0.363);
   position: fixed;
   top: 10%;
@@ -33,7 +33,7 @@ body {
   background-color: #d1bbbb;
   padding: 20px;
   width: 80%;
-  max-width: 700px;
+  max-width: 1200px;
   height: auto;
   box-sizing: border-box;
   font-size: 20px;
@@ -93,7 +93,7 @@ input:focus {
   margin: 20px auto;
   max-width: 100%;
   box-sizing: border-box;
-  background-color: rgba(183, 183, 199, 0.363);
+  background-color: rgba(183, 183, 199, 0);
 }
 
 .respond {
