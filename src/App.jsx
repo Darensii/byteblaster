@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import UTSLogo from "./UTS_Logo.png";
 
 const App = () => {
   const [response, setResponse] = useState("Hi, welcome to UTS-calendar Website. How can I help you?");
@@ -22,12 +23,16 @@ const App = () => {
   return (
     <>
       <div className="top">
-        <img src="./src/UTS_Logo" width="100" />
+      <img src={UTSLogo} width="100" alt="UTS Logo" />
       </div>
       
       {/* Background with styled div */}
       <div className="background" style={{ backgroundImage: `url("https://github-production-user-asset-6210df.s3.amazonaws.com/162389957/315539928-32a08f60-4546-4b49-9c13-9f76561a90fa.jpg")` }}>
         <p>UTS-Calendar AI Bot: {response}</p>
+        <div className="user_question">
+        <p>User:</p>
+        <p>{value}</p>
+      </div>
       </div>
       <div className="text_box">
         
