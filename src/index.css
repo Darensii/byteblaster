@@ -83,3 +83,20 @@ input:focus {
 .redirect-button:hover {
   background-color: #3e8e41; /* Darker green on hover */
 }
+
+.respond
+{
+  padding: 30px; /* Adjust this value to match the desired padding */
+  margin: 20px auto; /* Center the elements horizontally */
+  max-width: 100%; /* Set a maximum width */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+  background-color: rgb(100, 100, 200);
+}
+.user_question
+{
+  padding: 30px; /* Adjust this value to match the desired padding */
+  margin: 20px auto; /* Center the elements horizontally */
+  max-width: 100%; /* Set a maximum width */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+  background-color: rgb(100, 100, 200);
+}
