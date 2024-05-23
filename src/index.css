@@ -87,3 +87,15 @@ input:focus {
   box-sizing: border-box;
   background-color: rgba(183, 183, 199, 0.363);
 }
+.redirect-button 
+{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}

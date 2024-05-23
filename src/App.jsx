@@ -50,7 +50,7 @@ const App = () => {
         </div>
       </div>
       <button className="redirect-button" onClick={handleRedirect}>
-        Open UTS Website
+        Click to Visit UTS
       </button>
     </>
   );
