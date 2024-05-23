@@ -27,32 +27,31 @@ body {
 
 .text_box {
   position: fixed;
-  top: 70%; /* Adjusted to better balance the position */
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #d1bbbb;
-  padding: 20px; /* Reduced padding for better layout */
-  width: 80%; /* Adjusted to be responsive */
-  max-width: 1100px; /* Maximum width for larger screens */
-  height: auto; /* Adjusted to fit content */
+  padding: 20px;
+  width: 80%;
+  max-width: 700px;
+  height: auto;
   box-sizing: border-box;
   font-size: 20px;
   border-radius: 5px;
   display: flex;
-  flex-direction: row; /* Changed to row for horizontal layout */
   justify-content: space-between;
   align-items: center;
 }
 
 input {
-  flex: 1; /* Allow input to take up remaining space */
+  flex: 1;
   color: black;
   background-color: rgb(255, 251, 251);
   font-size: 20px;
   border: none;
   border-radius: 5px;
   padding: 12px 15px;
-  margin-right: 10px; /* Space between input and submit button */
+  margin-right: 10px;
 }
 
 input:focus {
@@ -60,7 +59,7 @@ input:focus {
 }
 
 #submit {
-  padding: 12px 20px; /* Better padding for the button */
+  padding: 12px 20px;
   background-color: #4CAF50;
   color: white;
   border: none;
@@ -70,7 +69,7 @@ input:focus {
 }
 
 #submit:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #45a049;
 }
 
 .redirect-button {
