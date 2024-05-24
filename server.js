@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.resolve(staticPath, 'index.html'));
 });
 
-// Base Chatbot class
+// Base Chatbot class (Polymorphism)
 class Chatbot {
     constructor(openai) {
         this.openai = openai;
@@ -34,7 +34,7 @@ class Chatbot {
     }
 }
 
-// Specialized class for handling UTS information
+// Specialized class for handling UTS information (Polymorphism)
 class UTSChatbot extends Chatbot {
     constructor(openai, infoFilePath) {
         super(openai);
@@ -51,7 +51,7 @@ class UTSChatbot extends Chatbot {
                 messages: [
                     {
                         role: "system",
-                        content: "You are an AI Assistant developed by the students from University of Technology Sarawak based on the OpenAI. Your main role is to help find any relevant information and the Timetable on the website of the school.",
+                        content: "You are an AI Assistant (UTS-Calendar-AI) developed by the students from University of Technology Sarawak based on the OpenAI. Your main role is to help find any relevant information and solve the problem what user ask on the website of the school.",
                     },
                     {
                         role: "user",
